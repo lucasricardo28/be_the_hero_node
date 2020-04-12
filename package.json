@@ -1,0 +1,24 @@
+{
+  "name": "be-hero",
+  "version": "1.0.0",
+  "author": "Ricardo Lucas",
+  "description": "First OmniStack project",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "url": "https://github.com/yarnpkg/example-yarn-package",
+    "type": "git"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
